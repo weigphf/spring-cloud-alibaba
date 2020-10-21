@@ -209,7 +209,7 @@ public class DubboSpringCloudConsumerBootstrap {
 
     public static void main(String[] args) {
         new SpringApplicationBuilder(DubboSpringCloudConsumerBootstrap.class)
-                .properties("spring.profiles.active=nacos")
+                .properties("spring.profiles.active=zookeeper")
                 .run(args);
     }
 }
